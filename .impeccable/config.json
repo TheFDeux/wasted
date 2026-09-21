@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-21T16:42:36.114Z",
+        "reason": "Brief pins yellow-orange tones ('tons jaunes orangés'); the cream #FFF6E5 base is the light end of that palette, recorded in DESIGN.md"
+      }
+    ]
+  }
+}
