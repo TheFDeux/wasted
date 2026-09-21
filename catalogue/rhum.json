@@ -1,0 +1,1071 @@
+[
+  {
+    "id": "three-dots-and-a-dash",
+    "name": "Three Dots and a Dash",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["spicy"],
+    "texture": "crisp",
+    "citrus": ["lime", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#C8793A",
+    "glass": "tiki",
+    "origin": "Don the Beachcomber · Hollywood · années 1940",
+    "tagline": "Rhum agricole vieux, demerara, miel, falernum et piment de la Jamaïque : le morse de Don qui signifie victoire.",
+    "ingredients": [
+      ["45 ml", "rhum agricole vieux"],
+      ["15 ml", "rhum demerara"],
+      ["15 ml", "jus de citron vert"],
+      ["15 ml", "jus d'orange"],
+      ["15 ml", "sirop de miel"],
+      ["7 ml", "falernum"],
+      ["7 ml", "liqueur de piment de la Jamaïque (allspice dram)"],
+      ["1 trait", "Angostura"]
+    ],
+    "steps": [
+      "Shaker tous les ingrédients avec de la glace pilée.",
+      "Verser sans filtrer dans un mug tiki.",
+      "Compléter de glace pilée."
+    ],
+    "garnish": "Trois cerises et un bâtonnet d'ananas piqués ensemble : trois points, un trait."
+  },
+  {
+    "id": "navy-grog",
+    "name": "Navy Grog",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": [],
+    "texture": "sparkling",
+    "citrus": ["lime", "grapefruit"],
+    "sun": [],
+    "berry": [],
+    "color": "#D9A441",
+    "glass": "rocks",
+    "origin": "Don the Beachcomber · Hollywood · 1941",
+    "tagline": "Trois rhums, citron vert, pamplemousse et miel : le grog costaud de Don, servi avec son cône de glace pilée.",
+    "ingredients": [
+      ["30 ml", "rhum blanc"],
+      ["30 ml", "rhum jamaïcain ambré"],
+      ["30 ml", "rhum demerara"],
+      ["22 ml", "jus de citron vert"],
+      ["22 ml", "jus de pamplemousse"],
+      ["22 ml", "sirop de miel"],
+      ["30 ml", "eau gazeuse"]
+    ],
+    "steps": [
+      "Shaker tous les ingrédients avec de la glace.",
+      "Filtrer dans un double rocks rempli de glace pilée."
+    ],
+    "garnish": "Cône de glace pilée traversé d'une paille, ou une branche de menthe."
+  },
+  {
+    "id": "fog-cutter",
+    "name": "Fog Cutter",
+    "base": ["rhum", "cognac"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lemon", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#E5B85C",
+    "glass": "tiki",
+    "origin": "Trader Vic · Oakland · années 1940",
+    "tagline": "Rhum, cognac et gin sous une pluie de citron et d'orgeat, coiffés d'un flotteur de xérès : adieu la brume.",
+    "ingredients": [
+      ["60 ml", "rhum blanc"],
+      ["30 ml", "cognac"],
+      ["15 ml", "gin"],
+      ["60 ml", "jus de citron"],
+      ["30 ml", "jus d'orange"],
+      ["15 ml", "orgeat"],
+      ["15 ml", "xérès amontillado (en flotteur)"]
+    ],
+    "steps": [
+      "Shaker tout sauf le xérès avec de la glace.",
+      "Verser dans un grand verre tiki rempli de glace pilée.",
+      "Faire flotter le xérès sur le dessus."
+    ],
+    "garnish": "Branche de menthe."
+  },
+  {
+    "id": "missionarys-downfall",
+    "name": "Missionary's Downfall",
+    "base": ["rhum"],
+    "strength": 1,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": ["pineapple", "stone"],
+    "berry": [],
+    "color": "#9BC26B",
+    "glass": "tiki",
+    "origin": "Don the Beachcomber · Hollywood · années 1940",
+    "tagline": "Menthe, ananas frais, miel et pêche frappés sur un rhum blanc discret : la chute, très verte, du missionnaire.",
+    "ingredients": [
+      ["30 ml", "rhum blanc"],
+      ["15 ml", "liqueur de pêche"],
+      ["15 ml", "jus de citron vert"],
+      ["30 ml", "sirop de miel"],
+      ["6", "morceaux d'ananas frais"],
+      ["12", "feuilles de menthe"]
+    ],
+    "steps": [
+      "Mettre tous les ingrédients dans un blender avec une tasse de glace pilée.",
+      "Mixer jusqu'à obtenir une texture de neige fondante.",
+      "Verser dans un grand verre."
+    ],
+    "garnish": "Branche de menthe."
+  },
+  {
+    "id": "test-pilot",
+    "name": "Test Pilot",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["spicy", "herbal"],
+    "texture": "crisp",
+    "citrus": ["lime", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#B8712E",
+    "glass": "rocks",
+    "origin": "Don the Beachcomber · Hollywood · 1941",
+    "tagline": "Rhum jamaïcain, falernum, Cointreau et six gouttes de Pernod : le prototype qui a engendré le Jet Pilot.",
+    "ingredients": [
+      ["45 ml", "rhum jamaïcain ambré"],
+      ["22 ml", "rhum blanc"],
+      ["15 ml", "jus de citron vert"],
+      ["15 ml", "falernum"],
+      ["15 ml", "Cointreau"],
+      ["1 trait", "Angostura"],
+      ["6", "gouttes de Pernod"]
+    ],
+    "steps": [
+      "Shaker tous les ingrédients avec de la glace pilée.",
+      "Verser sans filtrer dans un verre rocks.",
+      "Compléter de glace pilée."
+    ],
+    "garnish": "Une cerise et un bâtonnet d'ananas."
+  },
+  {
+    "id": "jet-pilot",
+    "name": "Jet Pilot",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["spicy", "herbal"],
+    "texture": "crisp",
+    "citrus": ["lime", "grapefruit"],
+    "sun": [],
+    "berry": [],
+    "color": "#B26A2D",
+    "glass": "rocks",
+    "origin": "The Luau, Beverly Hills · 1958",
+    "tagline": "Trois rhums dont un 151, cannelle, falernum et pamplemousse : le Test Pilot passé en post-combustion.",
+    "ingredients": [
+      ["30 ml", "rhum jamaïcain ambré"],
+      ["22 ml", "rhum ambré"],
+      ["22 ml", "rhum demerara 151"],
+      ["15 ml", "jus de citron vert"],
+      ["15 ml", "jus de pamplemousse"],
+      ["15 ml", "sirop de cannelle"],
+      ["15 ml", "falernum"],
+      ["1 trait", "Angostura"],
+      ["6", "gouttes de Pernod"]
+    ],
+    "steps": [
+      "Shaker brièvement tous les ingrédients avec de la glace pilée.",
+      "Verser sans filtrer dans un verre rocks ou un mug tiki."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "cobras-fang",
+    "name": "Cobra's Fang",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["spicy", "herbal"],
+    "texture": "crisp",
+    "citrus": ["lime", "orange"],
+    "sun": ["passion"],
+    "berry": [],
+    "color": "#C4462F",
+    "glass": "tiki",
+    "origin": "Don the Beachcomber · Hollywood · années 1930",
+    "tagline": "Demerara 151, fassionola, falernum et un soupçon de Pernod : la morsure rouge et brûlante du cobra de Don.",
+    "ingredients": [
+      ["45 ml", "rhum demerara 151"],
+      ["15 ml", "jus de citron vert"],
+      ["15 ml", "jus d'orange"],
+      ["15 ml", "falernum"],
+      ["15 ml", "fassionola (sirop de fruit de la passion)"],
+      ["1 trait", "Angostura"],
+      ["6", "gouttes de Pernod"]
+    ],
+    "steps": [
+      "Shaker tous les ingrédients avec de la glace pilée.",
+      "Verser sans filtrer dans un mug tiki.",
+      "Compléter de glace pilée."
+    ],
+    "garnish": "Zeste de citron vert taillé en langue de serpent, bâtonnet d'ananas."
+  },
+  {
+    "id": "royal-bermuda-yacht-club",
+    "name": "Royal Bermuda Yacht Club",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy", "tiki"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": ["spicy"],
+    "texture": "crisp",
+    "citrus": ["lime", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#E9D9A0",
+    "glass": "coupe",
+    "origin": "Trader Vic's Bartender's Guide · 1947",
+    "tagline": "Rhum de la Barbade, citron vert, falernum et une cuillère de Cointreau : le daiquiri épicé des clubs nautiques.",
+    "ingredients": [
+      ["60 ml", "rhum ambré de la Barbade"],
+      ["22 ml", "jus de citron vert"],
+      ["15 ml", "falernum"],
+      ["7 ml", "Cointreau"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Filtrer finement dans une coupe givrée."
+    ],
+    "garnish": "Zeste de citron vert."
+  },
+  {
+    "id": "ti-punch",
+    "name": "Ti' Punch",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#F2F0E6",
+    "glass": "rocks",
+    "origin": "Classique martiniquais · XIXe siècle",
+    "tagline": "Rhum agricole blanc, sirop de canne et un disque de citron vert : en Martinique, chacun prépare sa propre mort.",
+    "ingredients": [
+      ["60 ml", "rhum agricole blanc"],
+      ["7 ml", "sirop de canne"],
+      ["1", "disque de citron vert (zeste et un peu de chair)"]
+    ],
+    "steps": [
+      "Presser le disque de citron vert dans un petit verre et l'y laisser.",
+      "Ajouter le sirop de canne, puis le rhum.",
+      "Remuer brièvement ; servir sans glace, ou avec un glaçon si on le préfère frais."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "el-presidente",
+    "name": "El Presidente",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#E8B87A",
+    "glass": "coupe",
+    "origin": "La Havane · années 1920",
+    "tagline": "Rhum ambré cubain, vermouth blanc, curaçao et une larme de grenadine : le remué le plus élégant de La Havane.",
+    "ingredients": [
+      ["45 ml", "rhum ambré"],
+      ["22 ml", "vermouth blanc"],
+      ["7 ml", "curaçao orange"],
+      ["1 trait", "grenadine"]
+    ],
+    "steps": [
+      "Remuer tous les ingrédients sur glace.",
+      "Filtrer dans une coupe givrée."
+    ],
+    "garnish": "Zeste d'orange."
+  },
+  {
+    "id": "daiquiri-mulata",
+    "name": "Daiquiri Mulata",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#8B5A3C",
+    "glass": "coupe",
+    "origin": "Floridita, La Havane · années 1940",
+    "tagline": "Rhum ambré, crème de cacao brune et citron vert frappés à la glace pilée : le daiquiri chocolaté du Floridita.",
+    "ingredients": [
+      ["60 ml", "rhum ambré"],
+      ["15 ml", "crème de cacao brune"],
+      ["22 ml", "jus de citron vert"],
+      ["7 ml", "sirop de sucre"]
+    ],
+    "steps": [
+      "Mixer tous les ingrédients au blender avec une tasse de glace pilée.",
+      "Verser dans une coupe givrée."
+    ],
+    "garnish": "Zeste de citron vert."
+  },
+  {
+    "id": "hotel-nacional-special",
+    "name": "Hotel Nacional Special",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": ["pineapple", "stone"],
+    "berry": [],
+    "color": "#E9C46A",
+    "glass": "coupe",
+    "origin": "Hotel Nacional de Cuba, La Havane · années 1930",
+    "tagline": "Rhum ambré, ananas, abricot et citron vert : le daiquiri de palace servi aux hôtes du Nacional.",
+    "ingredients": [
+      ["45 ml", "rhum ambré"],
+      ["15 ml", "liqueur d'abricot"],
+      ["22 ml", "jus d'ananas"],
+      ["15 ml", "jus de citron vert"],
+      ["7 ml", "sirop de sucre"]
+    ],
+    "steps": [
+      "Shaker vigoureusement avec de la glace.",
+      "Filtrer finement dans une coupe."
+    ],
+    "garnish": "Quartier d'ananas ou zeste de citron vert."
+  },
+  {
+    "id": "periodista",
+    "name": "Periodista",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime", "orange"],
+    "sun": ["stone"],
+    "berry": [],
+    "color": "#D9A25F",
+    "glass": "coupe",
+    "origin": "Classique cubain popularisé à Boston · XXe siècle",
+    "tagline": "Rhum ambré, abricot, triple sec et citron vert : le « journaliste », énigme de Boston aux airs de daiquiri.",
+    "ingredients": [
+      ["45 ml", "rhum ambré"],
+      ["22 ml", "triple sec"],
+      ["15 ml", "liqueur d'abricot"],
+      ["15 ml", "jus de citron vert"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Filtrer dans une coupe givrée."
+    ],
+    "garnish": "Zeste de citron vert."
+  },
+  {
+    "id": "mary-pickford",
+    "name": "Mary Pickford",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": ["pineapple"],
+    "berry": ["cherry"],
+    "color": "#F0A4A0",
+    "glass": "coupe",
+    "origin": "La Havane · années 1920",
+    "tagline": "Rhum blanc, ananas, grenadine et une pointe de marasquin : le cocktail rose dédié à la star du muet.",
+    "ingredients": [
+      ["45 ml", "rhum blanc"],
+      ["45 ml", "jus d'ananas"],
+      ["7 ml", "grenadine"],
+      ["7 ml", "liqueur de marasquin"]
+    ],
+    "steps": [
+      "Shaker vigoureusement avec de la glace.",
+      "Filtrer finement dans une coupe."
+    ],
+    "garnish": "Cerise au marasquin."
+  },
+  {
+    "id": "millionaire-no-1",
+    "name": "Millionaire Cocktail No. 1",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": ["stone"],
+    "berry": [],
+    "color": "#C4405A",
+    "glass": "coupe",
+    "origin": "The Savoy Cocktail Book, Londres · 1930",
+    "tagline": "Rhum jamaïcain, sloe gin, abricot et citron vert à parts égales : le Millionaire du Savoy, plus fruité que fortuné.",
+    "ingredients": [
+      ["22 ml", "rhum jamaïcain ambré"],
+      ["22 ml", "sloe gin"],
+      ["22 ml", "liqueur d'abricot"],
+      ["22 ml", "jus de citron vert"],
+      ["1 trait", "grenadine"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Filtrer dans une coupe givrée."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "bumbo",
+    "name": "Bumbo",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": ["spicy"],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#7A3E1D",
+    "glass": "rocks",
+    "origin": "Classique des Caraïbes · XVIIIe siècle",
+    "tagline": "Rhum brun, sucre, muscade et cannelle râpées sur un gros glaçon : le grog des flibustiers, version old fashioned.",
+    "ingredients": [
+      ["60 ml", "rhum brun"],
+      ["15 ml", "sirop de sucre"],
+      ["1", "pincée de muscade râpée"],
+      ["1", "pincée de cannelle"]
+    ],
+    "steps": [
+      "Verser le rhum et le sirop dans un verre rocks sur un gros glaçon.",
+      "Remuer une dizaine de secondes.",
+      "Râper la muscade et saupoudrer la cannelle par-dessus."
+    ],
+    "garnish": "Muscade fraîchement râpée."
+  },
+  {
+    "id": "batida-de-coco",
+    "name": "Batida de Coco",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "creamy",
+    "citrus": [],
+    "sun": ["coconut"],
+    "berry": [],
+    "color": "#F4EFE4",
+    "glass": "highball",
+    "origin": "Classique brésilien · XXe siècle",
+    "tagline": "Cachaça, lait de coco et lait concentré mixés glacés : la batida de plage brésilienne, douce et crémeuse.",
+    "ingredients": [
+      ["60 ml", "cachaça"],
+      ["60 ml", "lait de coco"],
+      ["30 ml", "lait concentré sucré"]
+    ],
+    "steps": [
+      "Mixer tous les ingrédients au blender avec une tasse de glace pilée.",
+      "Verser dans un verre highball."
+    ],
+    "garnish": "Noix de coco râpée ou une pincée de cannelle."
+  },
+  {
+    "id": "rabo-de-galo",
+    "name": "Rabo de Galo",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["aperitivo", "speakeasy"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#7B2A1E",
+    "glass": "rocks",
+    "origin": "Classique brésilien · années 1950",
+    "tagline": "Cachaça, vermouth rouge et Cynar remués sur glace : la « queue de coq » brésilienne, amère et franche.",
+    "ingredients": [
+      ["45 ml", "cachaça"],
+      ["22 ml", "vermouth rouge"],
+      ["22 ml", "Cynar"]
+    ],
+    "steps": [
+      "Remuer sur glace.",
+      "Filtrer dans un verre rocks sur un gros glaçon."
+    ],
+    "garnish": "Zeste d'orange."
+  },
+  {
+    "id": "chadburn",
+    "name": "Chadburn",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#8C4A2F",
+    "glass": "rocks",
+    "origin": "Phil Ward · Death & Co, New York · années 2000",
+    "tagline": "Rhum vieux guatémaltèque, porto tawny, eau-de-vie de poire et bitters au mole : un old fashioned de fin de soirée.",
+    "ingredients": [
+      ["60 ml", "rhum vieux (type Zacapa 23)"],
+      ["22 ml", "porto tawny"],
+      ["7 ml", "eau-de-vie de poire"],
+      ["1 trait", "bitters au mole (Xocolatl Mole)"]
+    ],
+    "steps": [
+      "Remuer sur glace.",
+      "Filtrer dans un verre rocks sur un gros glaçon."
+    ],
+    "garnish": "Zeste d'orange."
+  },
+  {
+    "id": "nuclear-daiquiri",
+    "name": "Nuclear Daiquiri",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["speakeasy", "tiki"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": ["herbal", "spicy"],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#B9D66B",
+    "glass": "coupe",
+    "origin": "Gregor de Gruyther · LAB Bar, Londres · 2005",
+    "tagline": "Overproof jamaïcain, Chartreuse verte, citron vert et falernum : le daiquiri baptisé « nucléaire » pour de bonnes raisons.",
+    "ingredients": [
+      ["30 ml", "rhum blanc overproof jamaïcain (Wray & Nephew)"],
+      ["22 ml", "Chartreuse verte"],
+      ["22 ml", "jus de citron vert"],
+      ["7 ml", "falernum"]
+    ],
+    "steps": [
+      "Shaker fort avec de la glace.",
+      "Filtrer finement dans une coupe givrée."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "dominicana",
+    "name": "Dominicana",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "creamy",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#3B2418",
+    "glass": "rocks",
+    "origin": "Sasha Petraske · Milk & Honey, New York · années 2000",
+    "tagline": "Rhum vieux et liqueur de café sous un voile de crème à peine fouettée : le White Russian version speakeasy.",
+    "ingredients": [
+      ["45 ml", "rhum vieux"],
+      ["45 ml", "liqueur de café"],
+      ["30 ml", "crème liquide légèrement fouettée"]
+    ],
+    "steps": [
+      "Remuer le rhum et la liqueur de café sur glace.",
+      "Filtrer dans un verre rocks sur un gros glaçon.",
+      "Napper délicatement de crème à peine fouettée, à la cuillère."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "right-hand",
+    "name": "Right Hand",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["speakeasy", "aperitivo"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#8E2A22",
+    "glass": "coupe",
+    "origin": "Michael McIlroy · Milk & Honey, New York · années 2000",
+    "tagline": "Rhum vieux, Campari, vermouth rouge et bitters au chocolat : le Boulevardier qui a pris le bateau pour les Caraïbes.",
+    "ingredients": [
+      ["45 ml", "rhum vieux"],
+      ["22 ml", "Campari"],
+      ["22 ml", "vermouth rouge"],
+      ["2 traits", "bitters au chocolat"]
+    ],
+    "steps": [
+      "Remuer sur glace.",
+      "Filtrer dans une coupe givrée."
+    ],
+    "garnish": "Zeste d'orange."
+  },
+  {
+    "id": "knickerbocker",
+    "name": "Knickerbocker",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lemon", "orange"],
+    "sun": [],
+    "berry": ["raspberry"],
+    "color": "#C9503F",
+    "glass": "rocks",
+    "origin": "Jerry Thomas · Bar-Tender's Guide · 1862",
+    "tagline": "Rhum ambré, sirop de framboise, curaçao et citron sur glace pilée : l'ancêtre new-yorkais du daiquiri fruité.",
+    "ingredients": [
+      ["60 ml", "rhum ambré"],
+      ["15 ml", "sirop de framboise"],
+      ["15 ml", "jus de citron"],
+      ["7 ml", "curaçao orange"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Filtrer dans un verre rocks rempli de glace pilée."
+    ],
+    "garnish": "Fruits de saison : framboise, tranche d'ananas ou d'orange."
+  },
+  {
+    "id": "canchanchara",
+    "name": "Canchánchara",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#E8C77B",
+    "glass": "rocks",
+    "origin": "Trinidad, Cuba · XIXe siècle",
+    "tagline": "Rhum blanc ou aguardiente, miel et citron vert allongés d'un peu d'eau : la boisson des insurgés de Trinidad.",
+    "ingredients": [
+      ["60 ml", "rhum blanc (ou aguardiente de canne)"],
+      ["22 ml", "miel"],
+      ["22 ml", "jus de citron vert"],
+      ["30 ml", "eau fraîche"]
+    ],
+    "steps": [
+      "Dissoudre le miel dans le jus de citron vert et l'eau au fond du verre.",
+      "Ajouter le rhum et des glaçons.",
+      "Remuer."
+    ],
+    "garnish": "Rondelle de citron vert."
+  },
+  {
+    "id": "el-floridita",
+    "name": "El Floridita",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#B0653F",
+    "glass": "coupe",
+    "origin": "Floridita, La Havane · années 1930",
+    "tagline": "Rhum blanc, vermouth rouge, crème de cacao, citron vert et grenadine : le cocktail maison du Floridita, à La Havane.",
+    "ingredients": [
+      ["45 ml", "rhum blanc"],
+      ["15 ml", "vermouth rouge"],
+      ["7 ml", "crème de cacao blanche"],
+      ["7 ml", "jus de citron vert"],
+      ["1 trait", "grenadine"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Filtrer dans une coupe givrée."
+    ],
+    "garnish": "Zeste de citron vert."
+  },
+  {
+    "id": "cable-car",
+    "name": "Cable Car",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": ["spicy"],
+    "texture": "crisp",
+    "citrus": ["lemon", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#D4883A",
+    "glass": "coupe",
+    "origin": "Tony Abou-Ganim · Starlight Room, San Francisco · 1996",
+    "tagline": "Rhum épicé, curaçao et citron, bord de sucre à la cannelle : le sidecar des collines de San Francisco.",
+    "ingredients": [
+      ["45 ml", "rhum épicé"],
+      ["22 ml", "curaçao orange"],
+      ["30 ml", "jus de citron"],
+      ["15 ml", "sirop de sucre"],
+      ["", "sucre à la cannelle pour le bord du verre"]
+    ],
+    "steps": [
+      "Givrer le bord d'une coupe de sucre à la cannelle.",
+      "Shaker le reste avec de la glace.",
+      "Filtrer dans la coupe."
+    ],
+    "garnish": "Spirale d'orange."
+  },
+  {
+    "id": "anejo-highball",
+    "name": "Añejo Highball",
+    "base": ["rhum"],
+    "strength": 1,
+    "style": ["speakeasy", "tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["spicy"],
+    "texture": "sparkling",
+    "citrus": ["lime", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#C98A3C",
+    "glass": "highball",
+    "origin": "Dale DeGroff · Rainbow Room, New York · années 1990",
+    "tagline": "Rhum añejo, curaçao, citron vert et Angostura allongés de ginger beer : l'hommage de DeGroff aux bartenders cubains.",
+    "ingredients": [
+      ["45 ml", "rhum añejo"],
+      ["15 ml", "curaçao orange"],
+      ["15 ml", "jus de citron vert"],
+      ["2 traits", "Angostura"],
+      ["top", "ginger beer"]
+    ],
+    "steps": [
+      "Verser le rhum, le curaçao, le citron vert et l'Angostura dans un highball rempli de glace.",
+      "Compléter de ginger beer et remuer doucement."
+    ],
+    "garnish": "Rondelle de citron vert et rondelle d'orange."
+  },
+  {
+    "id": "ancient-mariner",
+    "name": "Ancient Mariner",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": ["spicy"],
+    "texture": "crisp",
+    "citrus": ["lime", "grapefruit"],
+    "sun": [],
+    "berry": [],
+    "color": "#B07030",
+    "glass": "rocks",
+    "origin": "Jeff « Beachbum » Berry · années 1990",
+    "tagline": "Demerara et rhum jamaïcain, citron vert, pamplemousse et piment de la Jamaïque : le Navy Grog revu par le Beachbum.",
+    "ingredients": [
+      ["30 ml", "rhum demerara"],
+      ["30 ml", "rhum jamaïcain ambré"],
+      ["22 ml", "jus de citron vert"],
+      ["15 ml", "jus de pamplemousse"],
+      ["15 ml", "sirop de sucre"],
+      ["7 ml", "liqueur de piment de la Jamaïque (allspice dram)"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Verser sans filtrer dans un verre rocks rempli de glace pilée."
+    ],
+    "garnish": "Branche de menthe et rondelle de citron vert."
+  },
+  {
+    "id": "bushwacker",
+    "name": "Bushwacker",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "creamy",
+    "citrus": [],
+    "sun": ["coconut"],
+    "berry": [],
+    "color": "#8A6A50",
+    "glass": "highball",
+    "origin": "Saint-Thomas, Îles Vierges américaines · 1975",
+    "tagline": "Rhum brun, liqueur de café, crème de cacao et coco mixés glacés : le milkshake alcoolisé des Îles Vierges.",
+    "ingredients": [
+      ["45 ml", "rhum brun"],
+      ["30 ml", "liqueur de café"],
+      ["30 ml", "crème de cacao brune"],
+      ["60 ml", "crème de coco"],
+      ["60 ml", "lait"]
+    ],
+    "steps": [
+      "Mixer tous les ingrédients au blender avec une tasse de glace pilée.",
+      "Verser dans un grand verre."
+    ],
+    "garnish": "Muscade râpée ou copeaux de chocolat."
+  },
+  {
+    "id": "doctor-funk",
+    "name": "Doctor Funk",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "sparkling",
+    "citrus": ["lime", "lemon"],
+    "sun": [],
+    "berry": [],
+    "color": "#C24B4B",
+    "glass": "highball",
+    "origin": "Don the Beachcomber · Hollywood · années 1930",
+    "tagline": "Rhum jamaïcain, citron vert, grenadine et un trait d'absinthe, allongés d'eau gazeuse : la prescription du docteur de Samoa.",
+    "ingredients": [
+      ["60 ml", "rhum jamaïcain brun"],
+      ["22 ml", "jus de citron vert"],
+      ["15 ml", "jus de citron"],
+      ["15 ml", "grenadine"],
+      ["15 ml", "sirop de sucre"],
+      ["7 ml", "absinthe"],
+      ["top", "eau gazeuse"]
+    ],
+    "steps": [
+      "Shaker tout sauf l'eau gazeuse avec de la glace.",
+      "Verser dans un grand verre rempli de glace pilée.",
+      "Compléter d'eau gazeuse."
+    ],
+    "garnish": "Branche de menthe."
+  },
+  {
+    "id": "shrunken-skull",
+    "name": "Shrunken Skull",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#B03A3A",
+    "glass": "rocks",
+    "origin": "Ray Buhen · Tiki-Ti, Los Angeles · 1961",
+    "tagline": "Rhums demerara et ambré, citron vert et grenadine à parts égales : le crâne rétréci du Tiki-Ti, simple et brutal.",
+    "ingredients": [
+      ["30 ml", "rhum demerara"],
+      ["30 ml", "rhum ambré"],
+      ["30 ml", "jus de citron vert"],
+      ["30 ml", "grenadine"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Verser sans filtrer dans un verre rocks ou un mug en forme de crâne."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "sidewinders-fang",
+    "name": "Sidewinder's Fang",
+    "base": ["rhum"],
+    "strength": 1,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "sparkling",
+    "citrus": ["lemon", "orange"],
+    "sun": ["passion"],
+    "berry": [],
+    "color": "#E28A3C",
+    "glass": "tiki",
+    "origin": "The Lanai, San Mateo, Californie · années 1960",
+    "tagline": "Rhums jamaïcain et demerara, fruit de la passion, orange et citron, allongés d'eau gazeuse : la morsure douce du crotale.",
+    "ingredients": [
+      ["30 ml", "rhum jamaïcain brun"],
+      ["30 ml", "rhum demerara"],
+      ["45 ml", "jus d'orange"],
+      ["45 ml", "jus de citron"],
+      ["45 ml", "sirop de fruit de la passion"],
+      ["top", "eau gazeuse"]
+    ],
+    "steps": [
+      "Shaker tout sauf l'eau gazeuse avec de la glace.",
+      "Verser dans un grand mug tiki rempli de glace pilée.",
+      "Compléter d'eau gazeuse et remuer doucement."
+    ],
+    "garnish": "Longue spirale de zeste d'orange enroulée autour d'une branche de menthe."
+  },
+  {
+    "id": "nui-nui",
+    "name": "Nui Nui",
+    "base": ["rhum"],
+    "strength": 3,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["spicy"],
+    "texture": "crisp",
+    "citrus": ["lime", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#C8843E",
+    "glass": "tiki",
+    "origin": "Don the Beachcomber · Hollywood · années 1930",
+    "tagline": "Rhum ambré, citron vert, orange, cannelle, vanille et piment de la Jamaïque : la pâtisserie liquide de Don the Beachcomber.",
+    "ingredients": [
+      ["60 ml", "rhum ambré"],
+      ["22 ml", "jus de citron vert"],
+      ["15 ml", "jus d'orange"],
+      ["7 ml", "sirop de cannelle"],
+      ["7 ml", "sirop de vanille"],
+      ["7 ml", "liqueur de piment de la Jamaïque (allspice dram)"],
+      ["2 traits", "Angostura"]
+    ],
+    "steps": [
+      "Shaker avec de la glace pilée.",
+      "Verser sans filtrer dans un grand verre ou un mug tiki.",
+      "Compléter de glace pilée."
+    ],
+    "garnish": "Zeste d'orange."
+  },
+  {
+    "id": "punch-planteur",
+    "name": "Punch planteur",
+    "base": ["rhum"],
+    "strength": 1,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": ["spicy"],
+    "texture": "crisp",
+    "citrus": ["orange"],
+    "sun": ["pineapple"],
+    "berry": [],
+    "color": "#E8A14B",
+    "glass": "highball",
+    "origin": "Classique antillais · XXe siècle",
+    "tagline": "Rhum agricole, jus d'ananas, d'orange et de goyave, sirop de canne, cannelle et muscade : le punch des Antilles françaises.",
+    "ingredients": [
+      ["45 ml", "rhum agricole ambré"],
+      ["60 ml", "jus d'ananas"],
+      ["45 ml", "jus d'orange"],
+      ["30 ml", "jus de goyave"],
+      ["15 ml", "sirop de canne"],
+      ["1", "pincée de cannelle"],
+      ["1", "pincée de muscade râpée"]
+    ],
+    "steps": [
+      "Verser tous les ingrédients dans un shaker avec de la glace.",
+      "Shaker et filtrer dans un highball rempli de glace."
+    ],
+    "garnish": "Quartier d'ananas et rondelle d'orange."
+  },
+  {
+    "id": "rum-runner",
+    "name": "Rum Runner",
+    "base": ["rhum"],
+    "strength": 2,
+    "style": ["tiki"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["orange", "lime"],
+    "sun": ["pineapple"],
+    "berry": ["blackberry"],
+    "color": "#C0392B",
+    "glass": "highball",
+    "origin": "Holiday Isle Tiki Bar, Islamorada (Floride) · années 1950",
+    "tagline": "Rhum, mûre, banane, ananas, orange et grenadine : le long drink des Keys inventé pour écouler les fonds de bar.",
+    "ingredients": [
+      ["45 ml", "rhum ambré"],
+      ["15 ml", "crème de mûre"],
+      ["15 ml", "liqueur de banane"],
+      ["30 ml", "jus d'ananas"],
+      ["30 ml", "jus d'orange"],
+      ["15 ml", "jus de citron vert"],
+      ["7 ml", "grenadine"]
+    ],
+    "steps": [
+      "Shaker avec de la glace.",
+      "Filtrer dans un highball rempli de glace pilée."
+    ],
+    "garnish": "Quartier d'orange et cerise."
+  }
+]

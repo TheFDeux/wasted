@@ -1,4 +1,4 @@
-# Wasted
+# Shaker Club
 
 Trouve le cocktail que tu ne connais pas encore.
 
@@ -18,6 +18,7 @@ puis va sur http://localhost:8765.
 
 - `index.html` : coquille de la page et chargement des polices
 - `styles.css` : design system (tons crème, ambre, orange brûlé)
-- `data.js` : catalogue de 48 cocktails tagués et les 10 questions du quiz
+- `data.js` : les 48 premiers cocktails tagués et les 10 questions du quiz
+- `data-more.js` : 200 cocktails supplémentaires, généré depuis `catalogue/*.json` par `python catalogue/build.py`
 - `app.js` : routage, scoring, sélecteur de personnes, favoris (localStorage)
 - `PRODUCT.md` / `DESIGN.md` : contexte produit et décisions de design

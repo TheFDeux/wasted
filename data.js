@@ -1,4 +1,4 @@
-// Wasted — catalogue de cocktails niche + questionnaire
+// Shaker Club — catalogue de cocktails niche + questionnaire
 // base: gin | whisky | rhum | agave | vodka | cognac | aperitivo
 // strength: 1 léger · 2 équilibré · 3 costaud
 // style: speakeasy | tiki | aperitivo | cantina

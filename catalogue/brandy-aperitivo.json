@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "brandy-crusta",
+    "name": "Brandy Crusta",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lemon", "orange"],
+    "sun": [],
+    "berry": ["cherry"],
+    "color": "#C9822B",
+    "glass": "coupe",
+    "origin": "Joseph Santini · Jewel of the South, La Nouvelle-Orléans · années 1850",
+    "tagline": "Cognac, curaçao et marasquin dans une coupe givrée de sucre, ceinturée d'un long zeste de citron.",
+    "ingredients": [
+      ["60 ml", "cognac"],
+      ["7 ml", "curaçao orange"],
+      ["7 ml", "liqueur de marasquin"],
+      ["7 ml", "jus de citron"],
+      ["7 ml", "sirop de sucre"],
+      ["1 trait", "Angostura"],
+      ["", "sucre fin pour le bord du verre"]
+    ],
+    "steps": [
+      "Givrez le bord d'une petite coupe avec du citron puis du sucre fin.",
+      "Tapissez la paroi d'un long zeste de citron taillé en spirale.",
+      "Shakez le reste des ingrédients avec des glaçons.",
+      "Filtrez finement dans la coupe."
+    ],
+    "garnish": "Long zeste de citron en spirale contre la paroi."
+  },
+  {
+    "id": "between-the-sheets",
+    "name": "Between the Sheets",
+    "base": ["cognac", "rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lemon", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#E3C57A",
+    "glass": "coupe",
+    "origin": "Harry MacElhone · Harry's New York Bar, Paris · années 1930",
+    "tagline": "Cognac et rhum blanc à parts égales, Cointreau et citron : un sour parisien canaille et sans détour.",
+    "ingredients": [
+      ["30 ml", "cognac"],
+      ["30 ml", "rhum blanc"],
+      ["30 ml", "Cointreau"],
+      ["15 ml", "jus de citron"]
+    ],
+    "steps": [
+      "Shakez tous les ingrédients avec des glaçons.",
+      "Filtrez finement dans une coupe glacée.",
+      "Exprimez un zeste de citron au-dessus du verre."
+    ],
+    "garnish": "Zeste de citron."
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#D6AE6B",
+    "glass": "rocks",
+    "origin": "Classique new-yorkais · début XXe siècle",
+    "tagline": "Cognac et crème de menthe blanche, servis sur glace pilée : le digestif net et frais des clubs new-yorkais.",
+    "ingredients": [
+      ["60 ml", "cognac"],
+      ["22 ml", "crème de menthe blanche"]
+    ],
+    "steps": [
+      "Shakez vigoureusement les deux ingrédients avec des glaçons.",
+      "Filtrez sur de la glace pilée dans un verre rocks."
+    ],
+    "garnish": "Une feuille de menthe."
+  },
+  {
+    "id": "brandy-alexander",
+    "name": "Brandy Alexander",
+    "base": ["cognac"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "creamy",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#E7D3B8",
+    "glass": "coupe",
+    "origin": "Classique · années 1920-1930",
+    "tagline": "Cognac, crème de cacao et crème fraîche shakés en velours, une pluie de muscade fraîchement râpée dessus.",
+    "ingredients": [
+      ["45 ml", "cognac"],
+      ["30 ml", "crème de cacao brune"],
+      ["30 ml", "crème liquide"]
+    ],
+    "steps": [
+      "Shakez énergiquement tous les ingrédients avec des glaçons.",
+      "Filtrez finement dans une coupe glacée.",
+      "Râpez un peu de muscade par-dessus."
+    ],
+    "garnish": "Muscade fraîchement râpée."
+  },
+  {
+    "id": "harvard",
+    "name": "Harvard",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#8E3B2A",
+    "glass": "coupe",
+    "origin": "George Kappeler · Modern American Drinks · 1895",
+    "tagline": "Le cousin bostonien du Manhattan : cognac et vermouth rouge remués, une touche d'Angostura, servi bien froid.",
+    "ingredients": [
+      ["45 ml", "cognac"],
+      ["45 ml", "vermouth rouge"],
+      ["2 traits", "Angostura"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons jusqu'à ce que le mélange soit bien froid.",
+      "Filtrez dans une coupe glacée.",
+      "Exprimez un zeste de citron au-dessus du verre."
+    ],
+    "garnish": "Zeste de citron."
+  },
+  {
+    "id": "east-india",
+    "name": "East India",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["orange"],
+    "sun": ["pineapple"],
+    "berry": ["cherry"],
+    "color": "#B9682E",
+    "glass": "coupe",
+    "origin": "Harry Johnson · Bartenders' Manual · 1882",
+    "tagline": "Cognac remué avec curaçao, sirop d'ananas et marasquin : l'exotisme victorien en coupe, riche et parfumé.",
+    "ingredients": [
+      ["60 ml", "cognac"],
+      ["15 ml", "curaçao orange"],
+      ["15 ml", "sirop d'ananas"],
+      ["7 ml", "liqueur de marasquin"],
+      ["2 traits", "Angostura"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée.",
+      "Déposez le zeste et la cerise."
+    ],
+    "garnish": "Zeste de citron et une cerise."
+  },
+  {
+    "id": "fish-house-punch",
+    "name": "Fish House Punch",
+    "base": ["cognac", "rhum"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lemon"],
+    "sun": ["stone"],
+    "berry": [],
+    "color": "#D9A25B",
+    "glass": "rocks",
+    "origin": "State in Schuylkill Fishing Company, Philadelphie · XVIIIe siècle",
+    "tagline": "Le punch des pêcheurs de Philadelphie en version solo : cognac, rhum jamaïcain, liqueur de pêche et citron.",
+    "ingredients": [
+      ["45 ml", "cognac"],
+      ["30 ml", "rhum jamaïcain"],
+      ["15 ml", "liqueur de pêche"],
+      ["22 ml", "jus de citron"],
+      ["15 ml", "sirop de sucre"],
+      ["30 ml", "eau plate froide"]
+    ],
+    "steps": [
+      "Shakez tous les ingrédients sauf l'eau avec des glaçons.",
+      "Filtrez sur de gros glaçons dans un verre rocks.",
+      "Allongez d'eau froide et remuez brièvement."
+    ],
+    "garnish": "Muscade râpée et une rondelle de citron."
+  },
+  {
+    "id": "corpse-reviver-1",
+    "name": "Corpse Reviver No. 1",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": ["apple"],
+    "berry": [],
+    "color": "#A2502C",
+    "glass": "coupe",
+    "origin": "Harry Craddock · The Savoy, Londres · 1930",
+    "tagline": "Cognac, calvados et vermouth rouge remués : le remède du Savoy « à prendre avant onze heures ».",
+    "ingredients": [
+      ["45 ml", "cognac"],
+      ["22 ml", "calvados"],
+      ["22 ml", "vermouth rouge"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "brandy-daisy",
+    "name": "Brandy Daisy",
+    "base": ["cognac"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": [],
+    "texture": "sparkling",
+    "citrus": ["lemon", "orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#E5C46A",
+    "glass": "rocks",
+    "origin": "Jerry Thomas · Bar-Tender's Guide · 1876",
+    "tagline": "Cognac, curaçao et citron allongés d'eau gazeuse sur glace : la marguerite de Jerry Thomas, fraîche et dorée.",
+    "ingredients": [
+      ["60 ml", "cognac"],
+      ["15 ml", "curaçao orange"],
+      ["22 ml", "jus de citron"],
+      ["7 ml", "sirop de sucre"],
+      ["top", "eau gazeuse"]
+    ],
+    "steps": [
+      "Shakez le cognac, le curaçao, le citron et le sirop avec des glaçons.",
+      "Filtrez sur des glaçons dans un verre rocks.",
+      "Complétez d'un trait d'eau gazeuse."
+    ],
+    "garnish": "Rondelle de citron et fruits de saison."
+  },
+  {
+    "id": "stone-fence",
+    "name": "Stone Fence",
+    "base": ["cognac"],
+    "strength": 1,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "sparkling",
+    "citrus": [],
+    "sun": ["apple"],
+    "berry": [],
+    "color": "#D9A338",
+    "glass": "highball",
+    "origin": "Classique américain · Nouvelle-Angleterre · XVIIIe siècle",
+    "tagline": "Calvados allongé de cidre brut glacé et de deux traits d'Angostura : le highball paysan de Nouvelle-Angleterre.",
+    "ingredients": [
+      ["60 ml", "calvados"],
+      ["2 traits", "Angostura"],
+      ["top", "cidre brut"]
+    ],
+    "steps": [
+      "Remplissez un verre highball de glaçons.",
+      "Versez le calvados et l'Angostura.",
+      "Complétez de cidre brut bien froid et remuez délicatement."
+    ],
+    "garnish": "Zeste de citron ou fine tranche de pomme."
+  },
+  {
+    "id": "widows-kiss",
+    "name": "Widow's Kiss",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "sweet",
+    "notes": ["herbal", "spicy"],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": ["apple"],
+    "berry": [],
+    "color": "#C8922E",
+    "glass": "coupe",
+    "origin": "George Kappeler · Holland House, New York · 1895",
+    "tagline": "Calvados, Chartreuse jaune et Bénédictine : un baiser d'herbes et de miel, opulent et d'une douceur trompeuse.",
+    "ingredients": [
+      ["45 ml", "calvados"],
+      ["22 ml", "Chartreuse jaune"],
+      ["22 ml", "Bénédictine"],
+      ["2 traits", "Angostura"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée.",
+      "Déposez une cerise au fond."
+    ],
+    "garnish": "Une cerise."
+  },
+  {
+    "id": "deauville",
+    "name": "Deauville",
+    "base": ["cognac"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sour",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lemon", "orange"],
+    "sun": ["apple"],
+    "berry": [],
+    "color": "#E0B865",
+    "glass": "coupe",
+    "origin": "The Savoy, Londres · 1930",
+    "tagline": "Cognac et calvados à parts égales, Cointreau et citron : un sour franco-normand, sec, vif et fruité.",
+    "ingredients": [
+      ["22 ml", "cognac"],
+      ["22 ml", "calvados"],
+      ["22 ml", "Cointreau"],
+      ["22 ml", "jus de citron"]
+    ],
+    "steps": [
+      "Shakez tous les ingrédients avec des glaçons.",
+      "Filtrez finement dans une coupe glacée."
+    ],
+    "garnish": "Zeste de citron."
+  },
+  {
+    "id": "chilcano",
+    "name": "Chilcano",
+    "base": ["cognac"],
+    "strength": 1,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["spicy"],
+    "texture": "sparkling",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#E8DDA8",
+    "glass": "highball",
+    "origin": "Classique péruvien · Lima · début XXe siècle",
+    "tagline": "Pisco, citron vert et ginger ale sur glace, quelques traits d'Angostura : le highball des soirées de Lima.",
+    "ingredients": [
+      ["60 ml", "pisco"],
+      ["15 ml", "jus de citron vert"],
+      ["3 traits", "Angostura"],
+      ["top", "ginger ale"]
+    ],
+    "steps": [
+      "Remplissez un verre highball de glaçons.",
+      "Versez le pisco et le jus de citron vert.",
+      "Complétez de ginger ale, ajoutez l'Angostura par-dessus et remuez délicatement."
+    ],
+    "garnish": "Rondelle de citron vert."
+  },
+  {
+    "id": "pisco-punch",
+    "name": "Pisco Punch",
+    "base": ["cognac"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["lemon"],
+    "sun": ["pineapple"],
+    "berry": [],
+    "color": "#E7D18C",
+    "glass": "coupe",
+    "origin": "Duncan Nicol · Bank Exchange Saloon, San Francisco · fin XIXe siècle",
+    "tagline": "Pisco, ananas frais écrasé dans le sirop de gomme et citron : la recette jadis secrète du Bank Exchange.",
+    "ingredients": [
+      ["60 ml", "pisco"],
+      ["22 ml", "jus de citron"],
+      ["22 ml", "sirop de gomme"],
+      ["3", "morceaux d'ananas frais"]
+    ],
+    "steps": [
+      "Écrasez l'ananas avec le sirop de gomme au fond du shaker.",
+      "Ajoutez le pisco et le jus de citron, shakez avec des glaçons.",
+      "Filtrez finement dans une coupe glacée."
+    ],
+    "garnish": "Un morceau d'ananas."
+  },
+  {
+    "id": "el-capitan",
+    "name": "El Capitán",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#8F3A32",
+    "glass": "coupe",
+    "origin": "Classique péruvien · années 1920",
+    "tagline": "Le Manhattan péruvien : pisco et vermouth rouge à parts égales, remués, une olive ou une cerise au fond.",
+    "ingredients": [
+      ["60 ml", "pisco"],
+      ["60 ml", "vermouth rouge"],
+      ["1 trait", "Angostura"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée."
+    ],
+    "garnish": "Une cerise ou une olive verte."
+  },
+  {
+    "id": "newark",
+    "name": "Newark",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": ["apple"],
+    "berry": ["cherry"],
+    "color": "#8B3A2E",
+    "glass": "coupe",
+    "origin": "John Deragon · Death & Co, New York · 2007",
+    "tagline": "Applejack et vermouth rouge relevés de Fernet-Branca et de marasquin : le Brooklyn traverse l'Hudson vers Newark.",
+    "ingredients": [
+      ["60 ml", "applejack (ou calvados)"],
+      ["30 ml", "vermouth rouge"],
+      ["7 ml", "Fernet-Branca"],
+      ["7 ml", "liqueur de marasquin"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "honeymoon",
+    "name": "Honeymoon",
+    "base": ["cognac"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": ["lemon", "orange"],
+    "sun": ["apple"],
+    "berry": [],
+    "color": "#D9A94A",
+    "glass": "coupe",
+    "origin": "Hugo Ensslin · Hotel Wallick, New York · 1916",
+    "tagline": "Calvados, Bénédictine, curaçao et citron : la lune de miel new-yorkaise de 1916, herbacée et pommée.",
+    "ingredients": [
+      ["45 ml", "calvados"],
+      ["22 ml", "Bénédictine"],
+      ["7 ml", "curaçao orange"],
+      ["22 ml", "jus de citron"]
+    ],
+    "steps": [
+      "Shakez tous les ingrédients avec des glaçons.",
+      "Filtrez finement dans une coupe glacée."
+    ],
+    "garnish": "Zeste de citron."
+  },
+  {
+    "id": "ritz-cocktail",
+    "name": "Ritz Cocktail",
+    "base": ["cognac"],
+    "strength": 1,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "sparkling",
+    "citrus": ["lemon", "orange"],
+    "sun": [],
+    "berry": ["cherry"],
+    "color": "#EBD48F",
+    "glass": "flute",
+    "origin": "Dale DeGroff · Rainbow Room, New York · années 1980",
+    "tagline": "Cognac, Cointreau et marasquin réveillés au champagne : l'hommage pétillant de Dale DeGroff au Ritz de Paris.",
+    "ingredients": [
+      ["22 ml", "cognac"],
+      ["15 ml", "Cointreau"],
+      ["7 ml", "liqueur de marasquin"],
+      ["7 ml", "jus de citron"],
+      ["top", "champagne"]
+    ],
+    "steps": [
+      "Remuez le cognac, le Cointreau, le marasquin et le citron avec des glaçons.",
+      "Filtrez dans une flûte glacée.",
+      "Complétez de champagne et flambez un zeste d'orange au-dessus."
+    ],
+    "garnish": "Zeste d'orange flambé."
+  },
+  {
+    "id": "burnt-fuselage",
+    "name": "Burnt Fuselage",
+    "base": ["cognac"],
+    "strength": 3,
+    "style": ["speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#C98A3C",
+    "glass": "coupe",
+    "origin": "Harry's New York Bar, Paris · 1927 (Barflies and Cocktails)",
+    "tagline": "Cognac, Grand Marnier et vermouth dry à parts égales : le remontant orangé et sec des aviateurs de Harry's Bar.",
+    "ingredients": [
+      ["30 ml", "cognac"],
+      ["30 ml", "Grand Marnier"],
+      ["30 ml", "vermouth dry"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée.",
+      "Exprimez un zeste de citron au-dessus du verre."
+    ],
+    "garnish": "Zeste de citron."
+  },
+  {
+    "id": "bosom-caresser",
+    "name": "Bosom Caresser",
+    "base": ["cognac"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "creamy",
+    "citrus": ["orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#D98D5A",
+    "glass": "coupe",
+    "origin": "The Savoy, Londres · 1930",
+    "tagline": "Cognac, curaçao, grenadine et jaune d'œuf shakés en velours : le tendre remontant du Savoy des années 1930.",
+    "ingredients": [
+      ["45 ml", "cognac"],
+      ["22 ml", "curaçao orange"],
+      ["7 ml", "grenadine"],
+      ["1", "jaune d'œuf"]
+    ],
+    "steps": [
+      "Shakez tous les ingrédients à sec, sans glace, pour émulsionner.",
+      "Ajoutez des glaçons et shakez à nouveau, très fort.",
+      "Filtrez finement dans une coupe glacée."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo",
+    "base": ["aperitivo"],
+    "strength": 2,
+    "style": ["aperitivo"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#E6D7A3",
+    "glass": "coupe",
+    "origin": "Louis Eppinger · Grand Hotel, Yokohama · années 1890",
+    "tagline": "Xérès sec et vermouth dry remués avec deux bitters : l'apéritif né à Yokohama, salin, léger et racé.",
+    "ingredients": [
+      ["45 ml", "xérès fino"],
+      ["45 ml", "vermouth dry"],
+      ["2 traits", "bitters à l'orange"],
+      ["1 trait", "Angostura"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée.",
+      "Exprimez un zeste de citron au-dessus du verre."
+    ],
+    "garnish": "Zeste de citron."
+  },
+  {
+    "id": "art-of-choke",
+    "name": "Art of Choke",
+    "base": ["aperitivo", "rhum"],
+    "strength": 2,
+    "style": ["aperitivo", "speakeasy"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": ["lime"],
+    "sun": [],
+    "berry": [],
+    "color": "#5A3A28",
+    "glass": "rocks",
+    "origin": "Kyle Davidson · The Violet Hour, Chicago · 2008",
+    "tagline": "Cynar et rhum blanc remués avec Chartreuse verte, menthe et citron vert : l'artichaut amer devient jardin.",
+    "ingredients": [
+      ["30 ml", "Cynar"],
+      ["30 ml", "rhum blanc"],
+      ["7 ml", "Chartreuse verte"],
+      ["7 ml", "jus de citron vert"],
+      ["7 ml", "sirop de demerara"],
+      ["6", "feuilles de menthe"]
+    ],
+    "steps": [
+      "Pressez délicatement la menthe au fond du verre à mélange.",
+      "Ajoutez les autres ingrédients et remuez avec des glaçons.",
+      "Filtrez sur un gros glaçon dans un verre rocks.",
+      "Laissez reposer une minute avant de servir."
+    ],
+    "garnish": "Brin de menthe."
+  },
+  {
+    "id": "bitter-giuseppe",
+    "name": "Bitter Giuseppe",
+    "base": ["aperitivo"],
+    "strength": 2,
+    "style": ["aperitivo"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": ["lemon"],
+    "sun": [],
+    "berry": [],
+    "color": "#5C2E22",
+    "glass": "rocks",
+    "origin": "Stephen Cole · The Violet Hour, Chicago · années 2000",
+    "tagline": "Cynar et vermouth rouge sur glace, un trait de citron : un Manhattan inversé à l'artichaut, terrien et juteux.",
+    "ingredients": [
+      ["60 ml", "Cynar"],
+      ["30 ml", "vermouth rouge"],
+      ["7 ml", "jus de citron"],
+      ["1 trait", "bitters à l'orange"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez sur un gros glaçon dans un verre rocks.",
+      "Exprimez un zeste de citron au-dessus et déposez-le dans le verre."
+    ],
+    "garnish": "Zeste de citron exprimé et déposé dans le verre."
+  },
+  {
+    "id": "sherry-cobbler",
+    "name": "Sherry Cobbler",
+    "base": ["aperitivo"],
+    "strength": 1,
+    "style": ["aperitivo"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["orange"],
+    "sun": [],
+    "berry": ["raspberry"],
+    "color": "#B8742E",
+    "glass": "highball",
+    "origin": "Classique américain · années 1830-1840",
+    "tagline": "Xérès amontillado, sucre et tranches d'orange sur glace pilée : la boisson qui a rendu la paille indispensable.",
+    "ingredients": [
+      ["90 ml", "xérès amontillado"],
+      ["15 ml", "sirop de sucre"],
+      ["2", "rondelles d'orange"],
+      ["3", "framboises"]
+    ],
+    "steps": [
+      "Écrasez les rondelles d'orange avec le sirop au fond du shaker.",
+      "Ajoutez le xérès et shakez brièvement avec des glaçons.",
+      "Versez sans filtrer sur de la glace pilée dans un verre highball.",
+      "Couronnez de framboises et de menthe."
+    ],
+    "garnish": "Framboises, tranche d'orange et brin de menthe."
+  },
+  {
+    "id": "rebujito",
+    "name": "Rebujito",
+    "base": ["aperitivo"],
+    "strength": 1,
+    "style": ["aperitivo"],
+    "bitter": 0,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "sparkling",
+    "citrus": ["lemon"],
+    "sun": [],
+    "berry": [],
+    "color": "#EDE7C4",
+    "glass": "highball",
+    "origin": "Classique andalou · Feria de Séville",
+    "tagline": "Manzanilla glacée allongée de limonade gazeuse et de menthe : la Feria de Séville dans un verre haut.",
+    "ingredients": [
+      ["60 ml", "xérès manzanilla"],
+      ["6", "feuilles de menthe"],
+      ["top", "limonade gazeuse au citron"]
+    ],
+    "steps": [
+      "Remplissez un verre highball de glaçons et glissez la menthe entre eux.",
+      "Versez la manzanilla bien froide.",
+      "Complétez de limonade gazeuse et remuez délicatement."
+    ],
+    "garnish": "Brin de menthe."
+  },
+  {
+    "id": "pimms-cup",
+    "name": "Pimm's Cup",
+    "base": ["aperitivo"],
+    "strength": 1,
+    "style": ["aperitivo"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "sparkling",
+    "citrus": ["lemon"],
+    "sun": [],
+    "berry": ["raspberry"],
+    "color": "#B5522F",
+    "glass": "highball",
+    "origin": "James Pimm · Londres · années 1840",
+    "tagline": "Pimm's No. 1, limonade, concombre et fraises : le long drink des pelouses de Wimbledon, frais et à peine amer.",
+    "ingredients": [
+      ["50 ml", "Pimm's No. 1"],
+      ["3", "rondelles de concombre"],
+      ["2", "fraises coupées en deux"],
+      ["4", "feuilles de menthe"],
+      ["top", "limonade gazeuse au citron"]
+    ],
+    "steps": [
+      "Disposez le concombre, les fraises et la menthe dans un verre highball.",
+      "Remplissez de glaçons et versez le Pimm's.",
+      "Complétez de limonade gazeuse et remuez délicatement."
+    ],
+    "garnish": "Ruban de concombre, fraise et brin de menthe."
+  },
+  {
+    "id": "garibaldi",
+    "name": "Garibaldi",
+    "base": ["aperitivo"],
+    "strength": 1,
+    "style": ["aperitivo"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": ["orange"],
+    "sun": [],
+    "berry": [],
+    "color": "#E85D2A",
+    "glass": "highball",
+    "origin": "Classique italien · version « fluffy » popularisée par Dante, New York · années 2010",
+    "tagline": "Campari et jus d'orange pressé à la minute, monté mousseux : le rouge et l'orange réunis comme l'Italie de Garibaldi.",
+    "ingredients": [
+      ["45 ml", "Campari"],
+      ["120 ml", "jus d'orange fraîchement pressé"]
+    ],
+    "steps": [
+      "Pressez les oranges à la minute et aérez le jus au blender ou en le shakant sans glace.",
+      "Versez le Campari dans un verre highball rempli de glaçons.",
+      "Complétez avec le jus d'orange mousseux."
+    ],
+    "garnish": "Quartier d'orange."
+  },
+  {
+    "id": "milano-torino",
+    "name": "Milano-Torino",
+    "base": ["aperitivo"],
+    "strength": 2,
+    "style": ["aperitivo"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#B8231F",
+    "glass": "rocks",
+    "origin": "Caffè Campari, Milan · années 1860",
+    "tagline": "Campari de Milan et vermouth de Turin à parts égales sur glace : l'ancêtre de l'Americano, sans eau gazeuse.",
+    "ingredients": [
+      ["45 ml", "Campari"],
+      ["45 ml", "vermouth rouge"]
+    ],
+    "steps": [
+      "Versez les deux ingrédients dans un verre rocks rempli de glaçons.",
+      "Remuez quelques secondes.",
+      "Déposez une demi-rondelle d'orange."
+    ],
+    "garnish": "Demi-rondelle d'orange."
+  },
+  {
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "base": ["aperitivo"],
+    "strength": 2,
+    "style": ["aperitivo", "speakeasy"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#E9DFA9",
+    "glass": "coupe",
+    "origin": "Hugo Ensslin · New York · 1916",
+    "tagline": "Vermouth dry, Bénédictine et trois traits d'absinthe : le low-ABV herbacé des années 1910, élégant et surprenant.",
+    "ingredients": [
+      ["60 ml", "vermouth dry"],
+      ["22 ml", "Bénédictine"],
+      ["3 traits", "absinthe"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée.",
+      "Exprimez un zeste d'orange au-dessus du verre."
+    ],
+    "garnish": "Zeste d'orange."
+  },
+  {
+    "id": "coffee-cocktail",
+    "name": "Coffee Cocktail",
+    "base": ["aperitivo", "cognac"],
+    "strength": 2,
+    "style": ["speakeasy"],
+    "bitter": 0,
+    "ss": "sweet",
+    "notes": [],
+    "texture": "creamy",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#8E4A45",
+    "glass": "coupe",
+    "origin": "Jerry Thomas · Bar-Tender's Guide · 1887",
+    "tagline": "Porto rouge, cognac et œuf entier shakés en mousse couleur cappuccino : pas une goutte de café dedans.",
+    "ingredients": [
+      ["60 ml", "porto rouge"],
+      ["30 ml", "cognac"],
+      ["7 ml", "sirop de sucre"],
+      ["1", "œuf entier"]
+    ],
+    "steps": [
+      "Shakez tous les ingrédients à sec, sans glace, pour émulsionner.",
+      "Ajoutez des glaçons et shakez à nouveau, très fort.",
+      "Filtrez finement dans une coupe et râpez un peu de muscade dessus."
+    ],
+    "garnish": "Muscade fraîchement râpée."
+  },
+  {
+    "id": "coronation",
+    "name": "Coronation",
+    "base": ["aperitivo"],
+    "strength": 2,
+    "style": ["aperitivo"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": ["cherry"],
+    "color": "#EADFAF",
+    "glass": "coupe",
+    "origin": "The Savoy, Londres · 1930",
+    "tagline": "Xérès sec et vermouth dry remués, une pointe de marasquin : le cousin britannique du Bamboo, couronné à Londres.",
+    "ingredients": [
+      ["45 ml", "xérès fino"],
+      ["45 ml", "vermouth dry"],
+      ["5 ml", "liqueur de marasquin"],
+      ["2 traits", "bitters à l'orange"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée."
+    ],
+    "garnish": "Aucune."
+  },
+  {
+    "id": "trident",
+    "name": "Trident",
+    "base": ["aperitivo"],
+    "strength": 3,
+    "style": ["aperitivo", "speakeasy"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": ["herbal", "spicy"],
+    "texture": "crisp",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#7A4A2E",
+    "glass": "coupe",
+    "origin": "Robert Hess · Seattle · 2002",
+    "tagline": "Aquavit, Cynar et xérès sec à parts égales : le Negroni scandinave de Robert Hess, salin, amer et carvi.",
+    "ingredients": [
+      ["30 ml", "aquavit"],
+      ["30 ml", "Cynar"],
+      ["30 ml", "xérès fino"],
+      ["2 traits", "bitters à la pêche"]
+    ],
+    "steps": [
+      "Remuez tous les ingrédients avec des glaçons.",
+      "Filtrez dans une coupe glacée.",
+      "Exprimez un zeste de citron au-dessus du verre."
+    ],
+    "garnish": "Zeste de citron."
+  },
+  {
+    "id": "cynar-spritz",
+    "name": "Cynar Spritz",
+    "base": ["aperitivo"],
+    "strength": 1,
+    "style": ["aperitivo"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "sparkling",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#7A3B22",
+    "glass": "highball",
+    "origin": "Classique italien · Vénétie",
+    "tagline": "Cynar, prosecco et eau gazeuse sur glace, une tranche d'orange : le spritz des Vénitiens qui aiment l'amer.",
+    "ingredients": [
+      ["45 ml", "Cynar"],
+      ["60 ml", "prosecco"],
+      ["top", "eau gazeuse"]
+    ],
+    "steps": [
+      "Remplissez un grand verre de glaçons.",
+      "Versez le Cynar puis le prosecco.",
+      "Complétez d'eau gazeuse et remuez délicatement."
+    ],
+    "garnish": "Demi-rondelle d'orange."
+  },
+  {
+    "id": "porto-tonic",
+    "name": "Porto Tonic",
+    "base": ["aperitivo"],
+    "strength": 1,
+    "style": ["aperitivo"],
+    "bitter": 1,
+    "ss": "balanced",
+    "notes": [],
+    "texture": "sparkling",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#EAD98F",
+    "glass": "highball",
+    "origin": "Classique portugais · Porto",
+    "tagline": "Porto blanc frais et tonic sur glace, citron et menthe : l'apéritif léger des quais du Douro.",
+    "ingredients": [
+      ["60 ml", "porto blanc"],
+      ["top", "tonic"]
+    ],
+    "steps": [
+      "Remplissez un verre highball de glaçons.",
+      "Versez le porto blanc bien froid.",
+      "Complétez de tonic et remuez délicatement."
+    ],
+    "garnish": "Rondelle de citron et brin de menthe."
+  },
+  {
+    "id": "fernet-con-coca",
+    "name": "Fernet con Coca",
+    "base": ["aperitivo"],
+    "strength": 1,
+    "style": ["aperitivo"],
+    "bitter": 2,
+    "ss": "balanced",
+    "notes": ["herbal"],
+    "texture": "sparkling",
+    "citrus": [],
+    "sun": [],
+    "berry": [],
+    "color": "#3B1F14",
+    "glass": "highball",
+    "origin": "Classique argentin · Córdoba · années 1980",
+    "tagline": "Fernet-Branca et cola sur glace, sans chichi : l'obsession nationale argentine, amère, mentholée et entêtante.",
+    "ingredients": [
+      ["60 ml", "Fernet-Branca"],
+      ["top", "cola"]
+    ],
+    "steps": [
+      "Remplissez un verre highball de glaçons.",
+      "Versez le Fernet-Branca.",
+      "Complétez de cola en versant lentement pour garder la mousse."
+    ],
+    "garnish": "Aucune."
+  }
+]

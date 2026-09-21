@@ -1,4 +1,4 @@
-/* Wasted — app logic: state, hash routing, scoring, rendering */
+/* Shaker Club — app logic: state, hash routing, scoring, rendering */
 (() => {
   'use strict';
 
@@ -44,29 +44,30 @@
   };
 
   // ---------- servings: scale quantities ----------
-  const UNIT_PLURAL = { trait: 'traits', rinçage: 'rinçages', morceau: 'morceaux', pincée: 'pincées', cuillère: 'cuillères' };
-  const NAME_PLURAL = { "blanc d'œuf": "blancs d'œuf", 'morceau de sucre': 'morceaux de sucre', 'feuille de menthe': 'feuilles de menthe' };
   const fmtNum = v => (Number.isInteger(v) ? String(v) : String(Math.round(v * 10) / 10).replace('.', ','));
+  const INVARIANT = new Set(['ml', 'cl', 'g', 'top']);
+  // French plural of one noun: trait→traits, morceau→morceaux, zeste→zestes; words already in -s/-x/-z stay
+  const pluralWord = w => (INVARIANT.has(w) || /[sxz]$/.test(w) ? w : /eau$/.test(w) ? `${w}x` : `${w}s`);
+  const singularWord = w => (INVARIANT.has(w) ? w : /eaux$/.test(w) ? w.slice(0, -1) : /[^s]s$/.test(w) && w.length > 3 ? w.slice(0, -1) : w);
+  // agree the first word of a phrase with the count: "blanc d'œuf" → "blancs d'œuf", "cuillère à café" → "cuillères à café"
+  function agree(phrase, value) {
+    const [first, ...rest] = phrase.split(' ');
+    const word = value > 1 ? pluralWord(first) : singularWord(first);
+    return [word, ...rest].join(' ');
+  }
   // '22 ml' → '66 ml'; '2 traits' → '6 traits'; '1 rinçage' → '3 rinçages'; '6' → '18'; 'top' / '' unchanged
   function scaleQty(q, n) {
     const m = /^(\d+(?:[.,]\d+)?)\s*(.*)$/.exec(q.trim());
     if (!m) return q;
     const value = parseFloat(m[1].replace(',', '.')) * n;
-    let unit = m[2].trim();
-    if (unit) {
-      const singular = unit.replace(/s$/, '');
-      if (value > 1 && UNIT_PLURAL[singular]) unit = UNIT_PLURAL[singular];
-      else if (value <= 1 && UNIT_PLURAL[singular]) unit = singular;
-    }
-    return unit ? `${fmtNum(value)} ${unit}` : fmtNum(value);
+    const unit = m[2].trim();
+    return unit ? `${fmtNum(value)} ${agree(unit, value)}` : fmtNum(value);
   }
   function scaleName(name, q, n) {
     // only bare counts ('1', '6') pluralise their noun; measured units keep the noun as written
     if (!/^\d+(?:[.,]\d+)?$/.test(q.trim())) return name;
     const value = parseFloat(q.replace(',', '.')) * n;
-    if (value > 1 && NAME_PLURAL[name]) return NAME_PLURAL[name];
-    if (value <= 1) { const sing = Object.entries(NAME_PLURAL).find(([, pl]) => pl === name); if (sing) return sing[0]; }
-    return name;
+    return agree(name, value);
   }
   const servingsLabel = n => `${n} personne${n > 1 ? 's' : ''}`;
   function ingredientsHTML(c, n) {
@@ -74,8 +75,11 @@
   }
   function servingsNote(c, n) {
     if (n < 3) return '';
-    const shaken = c.steps.some(s => /shaker|remuer|swizzler|mixer/i.test(s));
-    return shaken ? `Pour ${n} verres, prépare par lots de 2 : un shaker ou un verre à mélange ne refroidit pas bien au-delà.` : `Pour ${n} verres, monte-les un par un directement dans chaque verre.`;
+    const all = c.steps.join(' ');
+    // built in the glass (highball, swizzle, construit) vs. shaken or stirred in a mixing glass
+    const built = /construire|remplir|rempli(?:e)? de glace|directement dans|swizzl|dans (?:un|le) (?:highball|tumbler|verre à vin|verre tiki)/i.test(all);
+    const batch = /shaker|shake|verre à mélange|mixer|blender/i.test(all) || (/remuer/i.test(all) && !built);
+    return batch ? `Pour ${n} verres, prépare par lots de 2 : un shaker ou un verre à mélange ne refroidit pas bien au-delà.` : `Pour ${n} verres, monte-les un par un directement dans chaque verre.`;
   }
 
   // ---------- glass illustrations (liquid tinted per cocktail) ----------
@@ -178,13 +182,17 @@
     return COCKTAILS.map(c => ({ c, ...score(c, a) })).sort((x, y) => y.s - x.s);
   }
 
-  // pick 3 with distinct primary bases when possible, starting at an offset in the ranking
-  function pickThree(ranked, offset) {
-    const pool = ranked.slice(offset);
-    const out = []; const seen = new Set();
-    for (const r of pool) { if (out.length === 3) break; if (!seen.has(r.c.base[0])) { out.push(r); seen.add(r.c.base[0]); } }
-    for (const r of pool) { if (out.length === 3) break; if (!out.includes(r)) out.push(r); }
-    return out;
+  // page k of results: 3 cocktails with distinct primary bases when possible, never repeating an earlier page
+  function pickPage(ranked, page) {
+    const shown = new Set();
+    let picks = [];
+    for (let p = 0; p <= page; p++) {
+      picks = []; const seenBase = new Set();
+      for (const r of ranked) { if (picks.length === 3) break; if (shown.has(r.c.id) || seenBase.has(r.c.base[0])) continue; picks.push(r); seenBase.add(r.c.base[0]); }
+      for (const r of ranked) { if (picks.length === 3) break; if (shown.has(r.c.id) || picks.includes(r)) continue; picks.push(r); }
+      picks.forEach(r => shown.add(r.c.id));
+    }
+    return picks;
   }
 
   // ---------- helpers ----------
@@ -225,7 +233,7 @@
     <section class="view hero">
       <div class="hero-copy">
         <h1>Trouve le cocktail que tu ne connais <em>pas encore.</em></h1>
-        <p class="lede">Dix questions sur ce que tu aimes boire, et Wasted te sert trois cocktails de la face cachée du répertoire. Pas de Mojito, pas de Spritz : des recettes que ton bar préféré garde pour les habitués.</p>
+        <p class="lede">Dix questions sur ce que tu aimes boire, et Shaker Club te sert trois cocktails de la face cachée du répertoire. Pas de Mojito, pas de Spritz : des recettes que ton bar préféré garde pour les habitués.</p>
         <div class="hero-meta">
           <span>${I.clock} 2 minutes</span>
           <span>${I.list} ${COCKTAILS.length} cocktails de niche</span>
@@ -306,7 +314,7 @@
     <article class="card ${lead ? 'lead' : ''}" style="--i:${i}">
       <div class="card-art" style="background:linear-gradient(160deg, ${c.color}33, ${c.color}99 60%, ${c.color}cc)">${glassSVG(c.glass, c.color, c.id)}</div>
       <div class="card-body">
-        ${lead ? `<span class="badge">${I.star} Meilleur accord</span>` : ''}
+        ${lead && state.offset === 0 ? `<span class="badge">${I.star} Meilleur accord</span>` : ''}
         <div>
           <h3>${esc(c.name)}</h3>
           <p class="origin">${esc(c.origin)}</p>
@@ -328,8 +336,8 @@
   function viewResults() {
     if (!answered()) { location.replace('#/quiz/0'); return ''; }
     if (!state.ranked) state.ranked = rank(state.answers);
-    const picks = pickThree(state.ranked, state.offset);
-    const more = state.offset + 3 < state.ranked.length - 2;
+    const picks = pickPage(state.ranked, state.offset / 3);
+    const more = state.offset + 6 <= state.ranked.length;
     return `
     <section class="view">
       <div class="results-head">
